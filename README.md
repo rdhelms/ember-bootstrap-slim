@@ -1,7 +1,7 @@
 ember-bootstrap-slim
 ==============================================================================
 
-[Short description of the addon.]
+A tiny ember addon to give your app the minified bootstrap css. Nothing more, nothing less.
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +14,9 @@ ember install ember-bootstrap-slim
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+1. Install via `ember install ember-bootstrap-slim`.
+2. Add bootstrap classes to your html / hbs elements.
+3. Look at the pretty things.
 
 
 Contributing
@@ -25,17 +27,6 @@ Contributing
 * `git clone <repository-url>`
 * `cd ember-bootstrap-slim`
 * `npm install`
-
-### Linting
-
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Running tests
-
-* `ember test` – Runs the test suite on the current Ember version
-* `ember test --server` – Runs the test suite in "watch mode"
-* `npm test` – Runs `ember try:each` to test your addon against multiple Ember versions
 
 ### Running the dummy application
 
