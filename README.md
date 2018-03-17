@@ -24,7 +24,7 @@ Contributing
 
 ### Installation
 
-* `git clone <repository-url>`
+* `git clone https://github.com/rdhelms/ember-bootstrap-slim.git`
 * `cd ember-bootstrap-slim`
 * `npm install`
 
