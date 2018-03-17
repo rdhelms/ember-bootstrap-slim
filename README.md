@@ -1,4 +1,4 @@
-ember-rdhelms
+ember-bootstrap-slim
 ==============================================================================
 
 [Short description of the addon.]
@@ -7,7 +7,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-rdhelms
+ember install ember-bootstrap-slim
 ```
 
 
@@ -23,7 +23,7 @@ Contributing
 ### Installation
 
 * `git clone <repository-url>`
-* `cd ember-rdhelms`
+* `cd ember-bootstrap-slim`
 * `npm install`
 
 ### Linting
