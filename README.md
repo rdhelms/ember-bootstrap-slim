@@ -6,7 +6,6 @@ A tiny Ember addon to add Bootstrap to your Ember app. Nothing more, nothing les
 What you get:
 
 * Bootstrap's minified css added to your app's vendor.css
-* Bootstrap's minified js added to your app's vendor.js
 
 Versions
 ------------------------------------------------------------------------------
