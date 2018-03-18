@@ -32,19 +32,19 @@ Quick Example Walkthrough
 ------------------------------------------------------------------------------
 
 1. Install ember-cli
-    ```js
+    ```
     npm install -g ember-cli@latest
     ```
 2. Create a new ember app
-    ```js
+    ```
     ember new ember-example
     ```
 3. Install ember-bootstrap-slim
-    ```js
+    ```
     ember install ember-bootstrap-slim
     ```
 4. Create a new ember component
-    ```js
+    ```
     ember g component bootstrap-test
     ```
 5. In `app/templates/application.hbs`:
@@ -57,8 +57,8 @@ Quick Example Walkthrough
     <button class="btn btn-success">Test Button</button>
     ```
 7. Start the server
-    ```js
-    ember serve
+    ```
+    ember s
     ```
 8. Visit [http://localhost:4200](http://localhost:4200) to see your bootstrap-styled app.
 
@@ -70,6 +70,14 @@ Contributing
 * `git clone https://github.com/rdhelms/ember-bootstrap-slim.git`
 * `cd ember-bootstrap-slim`
 * `npm install`
+
+### Running the linter
+
+* `npm run lint:js`
+
+### Running tests
+
+* `npm test`
 
 ### Running the dummy application
 
