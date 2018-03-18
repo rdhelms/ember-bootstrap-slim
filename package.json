@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-slim",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A tiny Ember addon to quickly add Bootstrap to your Ember app",
   "keywords": [
     "ember-addon",
