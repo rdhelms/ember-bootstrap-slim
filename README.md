@@ -28,6 +28,34 @@ Usage
 2. Add bootstrap classes to your html / hbs elements.
 3. Look at the pretty things.
 
+How It Works
+------------------------------------------------------------------------------
+
+* Ember is still a bit in process of moving from bower to npm, and importing a file from a node module isn't yet quite as intuitive as it was to import from a bower component. Ember actually only recommends importing from bower_components or from vendor. So...the question is - how do we get the node module into the vendor folder easily?
+* ember-bootstrap-slim creates a new Broccoli funnel to add the desired file(s) from the bootstrap node_module into the app's vendor tree. It is then accessible to be imported into the app
+* In theory, any file from any node_module can be imported into an Ember app this way, provided the path and file name are correct
+
+**`index.js`**
+```js
+var Funnel = require('broccoli-funnel');
+
+module.exports = {
+  name: 'ember-bootstrap-slim',
+
+  included(app, parentAddon) {
+    this._super.included.apply(this, arguments);
+    let target = (parentAddon || app);
+    target.import('vendor/bootstrap.min.css');
+  },
+
+  treeForVendor() {
+    return new Funnel(`${this.project.root}/node_modules/bootstrap/dist/css`, {
+      files: ['bootstrap.min.css']
+    });
+  }
+};
+```
+
 Quick Example Walkthrough
 ------------------------------------------------------------------------------
 
