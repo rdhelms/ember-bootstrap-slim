@@ -1,9 +1,10 @@
 {
   "name": "ember-bootstrap-slim",
-  "version": "0.1.1",
-  "description": "A tiny ember addon to give your ember app the minified bootstrap css",
+  "version": "0.1.2",
+  "description": "A tiny Ember addon to quickly add Bootstrap to your Ember app",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "bootstrap"
   ],
   "license": "MIT",
   "author": "rdhelms",
@@ -20,12 +21,13 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "broccoli-funnel": "^2.0.1",
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-htmlbars": "^2.0.1",
-    "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "popper.js": "^1.14.1"
   },
   "devDependencies": {
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~3.0.0",
